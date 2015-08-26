@@ -1,0 +1,20 @@
+{
+  "name": "mySite",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3moz/mySite.git"
+  },
+  "author": "Eric Moskowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3moz/mySite/issues"
+  },
+  "homepage": "https://github.com/3moz/mySite"
+}
