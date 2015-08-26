@@ -13,5 +13,5 @@ app.get('/', function(req,res){
 
 
 
-app.listen(80);
-console.log('listening on 80')
+app.listen(3000);
+console.log('listening on 3000')
