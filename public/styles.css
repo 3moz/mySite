@@ -22,9 +22,10 @@
     position: absolute;
     height: 100%;
     left: 25px;
-    padding-top:20px;
-    padding-left:10px;
-    padding-right:5px;
+    right: 75%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
         
 }
 
@@ -39,8 +40,12 @@
 .landing{
     
     position:absolute;
-    left:400px;
+    left: 30%;
+    top: 125px;
+    right: 10%;
+    bottom: 10%;
     font-family:'Roboto Mono';
     font-size: 300px;
     font-weight: 400;
+    background-color: forestgreen;
 }
