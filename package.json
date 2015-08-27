@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/3moz/mySite/issues"
   },
-  "homepage": "https://github.com/3moz/mySite"
+  "homepage": "https://github.com/3moz/mySite",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }

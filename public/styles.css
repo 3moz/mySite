@@ -1,51 +1,53 @@
-@font-face{
-
-    font-family: "Roboto Mono", ;
+@font-face {
+  font-family: "Roboto Mono";
 }
-
-.contentArea{
-    
-    height:100%;
-    width:100%
+.mainAreaAspects {
+  position: absolute;
+  left: 30%;
+  top: 125px;
+  right: 10%;
+  bottom: 10%;
+  font-family: 'Roboto Mono';
+  font-size: 300px;
+  font-weight: 400;
+  background-color: forestgreen;
 }
-
-#eric{
-    
-    font-family:'Roboto Mono';
-    font-weight: 100;
-    font-size: 30px;
-    margin-bottom:40px;
+.contentArea {
+  height: 100%;
+  width: 100%;
 }
-
-.sidebar{
-
-    position: absolute;
-    height: 100%;
-    left: 25px;
-    right: 75%;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-        
+#eric {
+  font-family: 'Roboto Mono';
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
-
-#about, #diner, #feedMe, #dreamTeam{
-
-    font-family:'Roboto Mono';
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom:15px;
+.sidebar {
+  position: absolute;
+  height: 100%;
+  left: 25px;
+  right: 75%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
-
-.landing{
-    
-    position:absolute;
-    left: 30%;
-    top: 125px;
-    right: 10%;
-    bottom: 10%;
-    font-family:'Roboto Mono';
-    font-size: 300px;
-    font-weight: 400;
-    background-color: forestgreen;
+#about,
+#diner,
+#feedMe,
+#dreamTeam {
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.landing {
+  position: absolute;
+  left: 30%;
+  top: 125px;
+  right: 10%;
+  bottom: 10%;
+  font-family: 'Roboto Mono';
+  font-size: 300px;
+  font-weight: 400;
+  background-color: forestgreen;
 }
