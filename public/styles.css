@@ -48,6 +48,23 @@ li {
   background-image: url("assets/cold_spring.jpg");
   background-repeat: round;
 }
+.contentSnippet {
+  position: absolute;
+  left: 30%;
+  top: 120px;
+  right: 10%;
+  bottom: 10%;
+  font-family: 'Roboto Mono';
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
+  background-image: none;
+  background-color: none;
+  box-shadow: none;
+}
 .contentArea {
   height: 100%;
   width: 100%;
@@ -112,6 +129,23 @@ li {
   color: floralwhite;
 }
 #contentDreamTeam {
+  position: absolute;
+  left: 30%;
+  top: 120px;
+  right: 10%;
+  bottom: 10%;
+  font-family: 'Roboto Mono';
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
+  background-image: none;
+  background-color: none;
+  box-shadow: none;
+}
+#contentFeedMe {
   position: absolute;
   left: 30%;
   top: 120px;

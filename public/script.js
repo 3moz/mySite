@@ -16,3 +16,9 @@ $("#dreamTeam").click(function(){
     active.toggleClass("hide show");
     $("#contentDreamTeam").toggleClass("hide show");
 });
+
+$("#feedMe").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#contentFeedMe").toggleClass("hide show");
+});
