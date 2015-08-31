@@ -111,3 +111,31 @@ li {
   background-repeat: round;
   color: floralwhite;
 }
+#contentDreamTeam {
+  position: absolute;
+  left: 30%;
+  top: 120px;
+  right: 10%;
+  bottom: 10%;
+  font-family: 'Roboto Mono';
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
+  background-image: none;
+  background-color: none;
+  box-shadow: none;
+}
+.screenshot {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 25px;
+  box-shadow: 0 0 10px #c7c7c7;
+}
+.stack {
+  font-size: 10px;
+  color: darkgray;
+  margin-bottom: 10px;
+}
