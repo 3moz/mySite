@@ -4,16 +4,29 @@
 li {
   cursor: pointer;
 }
+#photoCaption {
+  position: absolute;
+  right: -215px;
+  bottom: 177px;
+  color: black;
+  font-weight: 100;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 .mainAreaAspects {
   position: absolute;
   left: 30%;
-  top: 125px;
+  top: 120px;
   right: 10%;
   bottom: 10%;
   font-family: 'Roboto Mono';
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
-  background-color: forestgreen;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
 }
 .contentArea {
   height: 100%;
@@ -52,23 +65,29 @@ li {
 #landing {
   position: absolute;
   left: 30%;
-  top: 125px;
+  top: 120px;
   right: 10%;
   bottom: 10%;
   font-family: 'Roboto Mono';
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
-  background-color: forestgreen;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
 }
 #aboutBox {
   position: absolute;
   left: 30%;
-  top: 125px;
+  top: 120px;
   right: 10%;
   bottom: 10%;
   font-family: 'Roboto Mono';
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
-  background-color: forestgreen;
-  background-color: aliceblue;
+  padding-left: 10px;
+  box-shadow: 4px 4px 6px #c7c7c7;
+  background-image: url("assets/cold_spring.jpg");
+  background-repeat: round;
+  color: floralwhite;
 }
