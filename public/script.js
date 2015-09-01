@@ -35,7 +35,13 @@ $("#diner").click(function(){
 $("#phoneEric").click(function(){
     var active = $(".show");
     active.toggleClass("hide show");
-    $("#phoneLanding").toggleClass("hide show");
+    $("#phoneProjectsContent").toggleClass("hide show");
+});
+
+$("#phoneProjects").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#phoneProjectsContent").toggleClass("hide show");
 });
 
 $("#phoneAboutMe").click(function(){

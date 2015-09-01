@@ -40,7 +40,6 @@
     bottom: 10%;
     font-family: 'Roboto Mono';
     font-weight: 400;
-    padding-left: 10px;
     box-shadow: 4px 4px 6px #c7c7c7;
     background-image: url("assets/cold_spring.jpg");
     background-repeat: round;
@@ -53,8 +52,8 @@
     text-align: center;
     font-size: 13px;
     color: black;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   #phoneResumeIcon {
     position: absolute;
@@ -75,6 +74,26 @@
     position: absolute;
     right: 150px;
     bottom: -55px;
+  }
+  #phoneProjectsContent {
+    top: 120px;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+  }
+  .gifHeader {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .phoneGif {
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #c7c7c7;
+    width: 80%;
+    height: 20%;
   }
 }
 li {
