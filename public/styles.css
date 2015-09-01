@@ -39,6 +39,7 @@
     top: 120px;
     bottom: 10%;
     font-family: 'Roboto Mono';
+    font-size: 13px;
     font-weight: 400;
     box-shadow: 4px 4px 6px #c7c7c7;
     background-image: url("assets/cold_spring.jpg");
@@ -46,11 +47,11 @@
     box-shadow: 0 0 10px #c7c7c7;
     left: 10%;
     right: 10%;
-    bottom: 30%;
+    bottom: 50px;
     background-image: none;
     background-color: aliceblue;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     color: black;
     padding-left: 10px;
     padding-right: 10px;
