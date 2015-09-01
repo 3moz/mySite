@@ -19,7 +19,30 @@
     
     <body>
         
-        <div id='contentArea'>
+        <!--phone layout -->
+        
+        <div id='contentArea' class='phone'>
+        
+            <div id='phoneEric'>Eric Moskowitz</div>
+            
+            <ul>
+            
+                <li class='phoneMenu'>About Me</li>
+                <li class='phoneMenu'>Projects</li>
+                
+            </ul>
+            
+            <div id='phoneLanding' class='show'></div>
+            
+            <div id='phoneAboutMe' class='hide'></div>
+            
+            <div id='phoneProjects' class='hide'></div>
+            
+        </div>
+        
+        
+        <!-- desktop layout -->
+        <div id='contentArea' class='desktop'>
             
             <div class='sidebar'>
             
@@ -93,11 +116,32 @@
                     <div class='stack'>{Ruby on Rails, Sqlite3, Javascript, jQuery, PureCSS, API's: Twitter, Google, NYT}</div>
                     <div class='projectImage'>
                     
-                        (screenshots)
+                        <img class='screenshot' src='assets/screenshots/feedme/login.png'>
+                        <img class='screenshot' src='assets/screenshots/feedme/landing.png'>
+                        <img class='screenshot' src='assets/screenshots/feedme/scroll.png'>
                         
                     </div>
                 </div>
                 
+            </div>
+            
+            <div id='contentDiner' class='hide'>
+            
+                <div class='projectDescription'>
+                
+                    <p><a target='_blank' href='http://104.236.5.181:3000/'>The Crimson Ghost Diner</a></p>
+                    
+                    <p>Manage your retro-campy-horror-punk/rockabilly-themed restaurant menu.</p>
+                    
+                    <div class='stack'>{Javascript, Backbone.js, Underscore.js, jQuery, jQueryUI, node.js, Express, Sqlite3, Bootstrap}</div>
+                    
+                    <div class='projectImage'>
+                        
+                        <img class='screenshot' src='assets/screenshots/diner/landing.png'>
+                        <img class='screenshot' src='assets/screenshots/diner/edit.png'>
+                        
+                    </div>
+                </div>
             </div>
             
         </div>

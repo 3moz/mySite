@@ -22,3 +22,9 @@ $("#feedMe").click(function(){
     active.toggleClass("hide show");
     $("#contentFeedMe").toggleClass("hide show");
 });
+
+$("#diner").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#contentDiner").toggleClass("hide show");
+});
