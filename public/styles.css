@@ -33,7 +33,7 @@
     margin-bottom: 15px;
     font-size: 25px;
   }
-  .phone #phoneLanding {
+  #phoneLanding {
     position: absolute;
     left: 30%;
     top: 120px;
@@ -48,6 +48,36 @@
     left: 10%;
     right: 10%;
     bottom: 40%;
+  }
+  #phoneAboutMeContent {
+    position: absolute;
+    left: 30%;
+    top: 120px;
+    bottom: 10%;
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    box-shadow: 4px 4px 6px #c7c7c7;
+    background-image: url("assets/cold_spring.jpg");
+    background-repeat: round;
+    left: 10%;
+    right: 10%;
+    bottom: 40%;
+    text-align: left;
+    font-size: 10px;
+    color: floralwhite;
+  }
+  #phonePhotoCaption {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-weight: 100;
+    font-size: 9px;
+    position: absolute;
+    color: black;
+    bottom: 123px;
+    right: -150px;
   }
 }
 li {
