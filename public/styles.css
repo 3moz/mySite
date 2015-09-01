@@ -58,22 +58,22 @@
   }
   #phoneResumeIcon {
     position: absolute;
-    left: 1px;
+    right: 1px;
     bottom: -48px;
   }
   #phoneGithubIcon {
     position: absolute;
-    left: 50px;
+    right: 50px;
     bottom: -48px;
   }
   #phoneLinkedinIcon {
     position: absolute;
-    left: 100px;
+    right: 100px;
     bottom: -48px;
   }
   #phoneEmailIcon {
     position: absolute;
-    left: 150px;
+    right: 150px;
     bottom: -55px;
   }
 }
