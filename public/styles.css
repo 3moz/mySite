@@ -31,7 +31,7 @@
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 25px;
   }
   .phone #phoneLanding {
     position: absolute;
@@ -47,6 +47,7 @@
     background-repeat: round;
     left: 10%;
     right: 10%;
+    bottom: 40%;
   }
 }
 li {
