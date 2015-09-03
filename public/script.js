@@ -1,3 +1,6 @@
+//each of these takes the active content (which has class 'show') and hides it
+//in favor of the content we wish to be newly active.
+
 
 //desktop mode script
 $("#eric").click(function(){
