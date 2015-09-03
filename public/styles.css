@@ -79,6 +79,21 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  #phoneUpdatesContent {
+    position: absolute;
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    box-shadow: 0 0 10px #c7c7c7;
+    left: 10%;
+    right: 10%;
+    top: 120px;
+    background-image: none;
+    background-color: aliceblue;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   #phoneResumeIcon {
     position: absolute;
     right: 1px;
@@ -249,7 +264,8 @@ li {
 }
 #contentDreamTeam,
 #contentFeedMe,
-#contentDiner {
+#contentDiner,
+#contentUpdates {
   position: absolute;
   left: 30%;
   top: 120px;

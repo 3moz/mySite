@@ -33,6 +33,12 @@ $("#diner").click(function(){
     $("#contentDiner").toggleClass("hide show");
 });
 
+$("#updates").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#contentUpdates").toggleClass("hide show");
+});
+
 //phone mode script
 
 $("#phoneEric").click(function(){
@@ -51,4 +57,10 @@ $("#phoneAboutMe").click(function(){
     var active = $(".show");
     active.toggleClass("hide show");
     $("#phoneAboutMeContent").toggleClass("hide show");
+});
+
+$("#phoneUpdates").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#phoneUpdatesContent").toggleClass("hide show");
 });
