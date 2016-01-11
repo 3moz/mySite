@@ -219,6 +219,7 @@ li {
   padding-right: 5px;
 }
 #about,
+#bank,
 #diner,
 #feedMe,
 #dreamTeam,
@@ -263,6 +264,7 @@ li {
   background-repeat: round;
   color: floralwhite;
 }
+#contentBank,
 #contentDreamTeam,
 #contentFeedMe,
 #contentDiner,

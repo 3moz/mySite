@@ -3,101 +3,106 @@
 <html>
 
     <head>
-        
+
         <link href='http://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300' rel='stylesheet' type='text/css'>
-        
+
         <link rel='stylesheet' type='text/css' href="styles.css"/>
-        
-        
+
+
         <!-- Compiled and minified materialize CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
-        
+
         <!-- for mobile -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no"/>
-        
+
     </head>
-    
+
     <body>
-        
+
         <!--phone layout -->
-        
+
         <div id='contentArea' class='phone'>
-        
+
             <div id='phoneEric'>Eric Moskowitz</div>
-            
+
             <ul>
-            
+
                 <li id='phoneAboutMe' class='phoneMenu'>About Me</li>
                 <li id='phoneProjects' class='phoneMenu'>Projects</li>
                 <li id='phoneUpdates' class='phoneMenu'>Updates</li>
-                
+
             </ul>
-            
+
             <div id='phoneAboutMeContent' class='hide'>
-            
+
                 <p id='phoneAboutMeText'>I'm a former consultant with a passion for web development. My goal is to improve lives and businesses by creating innovative technology. I live in New York City and when I'm not coding I enjoy running, basketball, Star Trek: The Next Generation and Batman: The Animated Series. Rest assured: my TV tastes are not confined solely to the early 90's.</p>
-                
+
                 <a target='_blank' id='phoneResumeIcon' href='assets/Eric_Moskowitz_Resume_092015.pdf' target='_blank'><img src="assets/round_resume_icon.png"></a>
                 <a target='_blank' id='phoneGithubIcon' href='https://github.com/3moz' target='_blank'>
                     <img src="assets/GitHub-Mark-64px.png"></a>
                 <a target='_blank' id='phoneLinkedinIcon' href='https://www.linkedin.com/in/ericmoskowitz' target='_blank'><img src='assets/In-Black-66px-TM.png'></a>
                 <a target='_blank' id='phoneEmailIcon' href='mailto:moskowitz.e@@gmail.com'>
                     <img src='assets/ic_email_black_48dp_1x.png'></a>
-                    
+
             </div>
-            
+
             <div id='phoneProjectsContent' class='show'>
-            
+
+                <p class='gifHeader'><a target="_blank" href='http://104.236.5.181:3001/'>ReduxBank</a></p>
+                <img class='phoneGif' src='assets/gifs/bank.gif'>
+
                 <p class='gifHeader'><a target='_blank' href='http://104.236.5.181:8081/'>DreamTeam</a></p>
                 <img class='phoneGif' src='assets/gifs/dreamTeam.gif'>
-                
+
                 <p class='gifHeader'><a target='_blank' href='http://104.236.5.181:8080/'>FeedMe</a></p>
-                <img class='phoneGif' src="assets/gifs/feedMe.gif">
-                
+                <img class='phoneGif' src='assets/gifs/feedMe.gif'>
+
                 <p class='gifHeader'><a target='_blank' href='http://104.236.5.181:3000/'>Crimson Ghost Diner</a></p>
-                <img class='phoneGif' src="assets/gifs/diner.gif">
-                
+                <img class='phoneGif' src='assets/gifs/diner.gif'>
+
             </div>
-            
+
             <div id='phoneUpdatesContent' class='hide'>
-            
+
                 <ul>
-                
+
                     <li>09.01.2015 - We're live! hope you like the site and all it contains - enjoy!</li>
                     <li>09.03.2015 - <a href='assets/Eric_Moskowitz_Resume_092015.pdf'>Updated resume!</a></li>
                     <li>10.19.2015 - I just wrote a new app using flux-redux and react. <a target=none href='http://104.236.5.181:3001/'>Check it out here.</a> I will create a new section for it in the main area soon.</li>
+                    <li>01.11.2016 - Main area includes ReduxBank</li>
                 </ul>
-            
+
             </div>
-            
+
         </div>
-        
-        
+
+
         <!-- desktop layout -->
         <div id='contentArea' class='desktop'>
-            
+
             <div class='sidebar'>
-            
+
                 <ul>
-                    
+
                     <li id='eric'>Eric Moskowitz</li>
-                    
+
                     <li id='about'>About Me</li>
+                    <li id='bank'>ReduxBank</li>
                     <li id='dreamTeam'>DreamTeam</li>
                     <li id='feedMe'>FeedMe</li>
                     <li id='diner'>Crimson Ghost Diner</li>
                     <li id='updates'>Updates</li>
-                                    
+
                 </ul>
-                
+
             </div>
-            
+
             <div id='landing' class='show'></div>
-            
+
             <div id='aboutBox' class='hide'>
-            
+
                 <p>I'm a former consultant with a passion for web development. My goal is to improve lives and businesses by creating innovative technology. I live in New York City and when I'm not coding I enjoy running, basketball, Star Trek: The Next Generation and Batman: The Animated Series. Rest assured: my TV tastes are not confined solely to the early 90's.</p>
-                
+
                 <a href='assets/Eric_Moskowitz_Resume_092015.pdf' target='_blank' id='resumeIcon'>
                     <img src="assets/round_resume_icon.png"></a>
                 <a href='https://github.com/3moz' target='_blank' id='githubIcon'>
@@ -105,101 +110,120 @@
                 <a href='https://www.linkedin.com/in/ericmoskowitz' target='_blank' id='linkedInIcon'>
                     <img src='assets/In-Black-66px-TM.png'></a>
                 <a href='mailto:moskowitz.e@@gmail.com' id='emailIcon'>
-                    <img src='assets/ic_email_black_48dp_1x.png'></a>  
-                
+                    <img src='assets/ic_email_black_48dp_1x.png'></a>
+
                 <p id='photoCaption'>Cold Spring, NY, 11.2.2014, photo by Eric Moskowitz</p>
-                
+
             </div>
-            
-            <div id='contentDreamTeam' class='hide'>
-            
+
+            <div id='contentBank' class='hide'>
+
                 <div class='projectDescription'>
-                    
+
+                    <p><a target='_blank' href='http://104.236.5.181:3001/'>ReduxBank</a></p>
+
+                    <p>A single-page, responsive banking app</p>
+
+                    <div class='stack'>{React-Redux, Bootstrap, NodeJs, Express, Webpack, unit-tested with Mocha}</div>
+                    <div class='projectImage'>
+                        <img class='screenshot' src='assets/screenshots/bank/landing.png'>
+                        <img class='screenshot' src='assets/screenshots/bank/deposit.png'>
+                        <img class='screenshot' src='assets/screenshots/bank/withdrawal.png'>
+                        <img class='screenshot' src='assets/screenshots/bank/deposit2.png'>
+                    </div>
+                </div>
+            </div>
+
+            <div id='contentDreamTeam' class='hide'>
+
+                <div class='projectDescription'>
+
                     <p><a target='_blank' href='http://104.236.5.181:8081/'>DreamTeam</a></p>
-                    
+
                     <p>Gain basketball insight by visualizing statistical data from 1946-2009. (data set courtesy of <a target='_bank' href='http://www.databasebasketball.com/stats_download.htm'>databasebasketball.com</a>).</p>
-                    
+
                     <div class='stack'>{Ruby on Rails, Sqlite3, Javascript, D3.js, jQuery, Bootstrap, Google Material Design Lite}</div>
                     <div class='projectImage'>
-                    
+
                         <img class='screenshot' src='assets/screenshots/dreamteam/login.png'>
                         <img class='screenshot' src='assets/screenshots/dreamteam/landing.png'>
                         <img class='screenshot' src='assets/screenshots/dreamteam/how_to_modal.png'>
                         <img class='screenshot' src='assets/screenshots/dreamteam/fta_ftm.png'>
                         <img class='screenshot' src='assets/screenshots/dreamteam/fgm_fga.png'>
                         <img class='screenshot' src="assets/screenshots/dreamteam/team_asts_to.png">
-                        
+
                     </div>
-                
+
                 </div>
-                
-                
+
+
             </div>
-            
+
             <div id='contentFeedMe' class='hide'>
-            
+
                 <div class='projectDescription'>
-                
+
                     <p><a target='_blank' href='http://104.236.5.181:8080/'>FeedMe</a></p>
-                    
+
                     <p>Curate your own news feed. Kind of a resurrection of Google Reader.</p>
-                    
+
                     <div class='stack'>Written with <a href='https://github.com/scmgithub'>Steve McIntosh</a>, <a href='https://github.com/bdipshikha'>Dipshikha Biswas</a> and <a href='https://github.com/peterpine83'>Peter Pine</a>.</div>
-                    
+
                     <div class='stack'>{Ruby on Rails, Sqlite3, Javascript, jQuery, PureCSS, API's: Twitter, Google, NYT}</div>
                     <div class='projectImage'>
-                    
+
                         <img class='screenshot' src='assets/screenshots/feedme/login.png'>
                         <img class='screenshot' src='assets/screenshots/feedme/landing.png'>
                         <img class='screenshot' src='assets/screenshots/feedme/scroll.png'>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div id='contentDiner' class='hide'>
-            
+
                 <div class='projectDescription'>
-                
+
                     <p><a target='_blank' href='http://104.236.5.181:3000/'>The Crimson Ghost Diner</a></p>
-                    
+
                     <p>Manage your retro-campy-horror-punk/rockabilly-themed restaurant menu.</p>
-                    
+
                     <div class='stack'>{Javascript, Backbone.js, Underscore.js, jQuery, jQueryUI, node.js, Express, Sqlite3, Bootstrap}</div>
-                    
+
                     <div class='projectImage'>
-                        
+
                         <img class='screenshot' src='assets/screenshots/diner/landing.png'>
                         <img class='screenshot' src='assets/screenshots/diner/edit.png'>
-                        
+
                     </div>
                 </div>
             </div>
-            
+
             <div id='contentUpdates' class='hide'>
-            
+
                  <ul>
-                
+
                     <li>09.01.2015 - We're live! hope you like the site and all it contains - enjoy!</li>
                     <li>09.03.2015 - <a href='assets/Eric_Moskowitz_Resume_092015.pdf'>Updated resume!</a></li>
                     <li>10.19.2015 - I just wrote a new app using flux-redux and react. <a target=none href='http://104.236.5.181:3001/'>Check it out here.</a> I will create a new section for it in the main area soon.</li>
+                    <li>01.11.2016 - Main area includes ReduxBank</li>
                 </ul>
             </div>
-            
+
         </div>
-        
-        
-        
-        
+
+
+
+
         <!-- Import jQuery -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        
+
         <!-- Import compiled and minified materialize JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
-        
+
         <!-- import site script -->
-        <script type='text/javascript' src='script.js'></script> 
-        
+        <script type='text/javascript' src='script.js'></script>
+
     </body>
 </html>

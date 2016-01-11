@@ -15,6 +15,12 @@ $("#about").click(function(){
     $("#aboutBox").toggleClass("hide show");
 });
 
+$("#bank").click(function(){
+    var active = $(".show");
+    active.toggleClass("hide show");
+    $("#contentBank").toggleClass("hide show");
+});
+
 $("#dreamTeam").click(function(){
     var active = $(".show");
     active.toggleClass("hide show");
